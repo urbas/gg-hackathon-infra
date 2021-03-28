@@ -25,7 +25,7 @@ resource "null_resource" "provision-clients" {
   }
 
   provisioner "remote-exec" {
-    inline = local.install_deps
+    script = "client-setup.sh"
 
     connection {
       type        = "ssh"

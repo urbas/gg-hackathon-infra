@@ -22,7 +22,7 @@ resource "null_resource" "provision_server" {
   }
 
   provisioner "remote-exec" {
-    inline = local.install_deps
+    script = "server-setup.sh"
 
     connection {
       type        = "ssh"

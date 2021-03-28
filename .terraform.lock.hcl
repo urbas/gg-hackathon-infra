@@ -4,13 +4,13 @@
 provider "registry.terraform.io/hashicorp/aws" {
   version = "3.27.0"
   hashes = [
-    "h1:38UVpdbC0wN/6MTncg/OPxhCcjmfb3XtkkMZlT9jHCo=",
+    "h1:IT3JU6+NFgm3u21xWi+CjIoE1zf35y0eSf0HZxo1ejU=",
   ]
 }
 
 provider "registry.terraform.io/hashicorp/null" {
   version = "3.0.0"
   hashes = [
-    "h1:URmmqkowMes/bdy2vg1nV9MJSa0r2ZSZiY7+0Ic//Vo=",
+    "h1:cJJwmzrTOMOoQfovJTK2RYOa4RWadSGYfyO/mkflJMw=",
   ]
 }
