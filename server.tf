@@ -32,3 +32,7 @@ resource "null_resource" "provision_server" {
     }
   }
 }
+
+output "server_ip" {
+  value = aws_instance.server.public_ip
+}

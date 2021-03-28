@@ -35,3 +35,7 @@ resource "null_resource" "provision-clients" {
     }
   }
 }
+
+output "client_ips" {
+  value = aws_instance.client[*].public_ip
+}
