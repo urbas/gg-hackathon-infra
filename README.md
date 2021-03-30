@@ -20,6 +20,6 @@ ssh -i $SSH_KEY ec2-user@$CLIENT_IP
 
 # On the client:
 tmux new -s gg-hackathon
-jupyter notebook --port=8280 --ip=0.0.0.0
+jupyter notebook --port=8180 --ip=0.0.0.0
 # Take a note of the link printed by jupyter and detach from the tmux session with `Ctrl+B,D`
 ```
