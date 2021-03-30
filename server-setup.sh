@@ -2,7 +2,7 @@
 
 set -exo pipefail
 
-sudo yum install -y python3 pip3 docker
+sudo yum install -y python3 pip3 docker tmux
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker ec2-user
