@@ -88,15 +88,6 @@ resource "aws_security_group" "sg" {
   ingress {
     description      = "server"
     from_port        = 8180
-    to_port          = 8180
-    protocol         = "tcp"
-    ipv6_cidr_blocks = ["::/0"]
-    cidr_blocks      = ["0.0.0.0/0"]
-  }
-
-  ingress {
-    description      = "client"
-    from_port        = 8280
     to_port          = 8280
     protocol         = "tcp"
     ipv6_cidr_blocks = ["::/0"]
