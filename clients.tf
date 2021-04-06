@@ -1,5 +1,5 @@
 resource "aws_instance" "client" {
-  count                       = 1
+  count                       = 4
   ami                         = "ami-0d712b3e6e1f798ef" # amazon linux 2
   instance_type               = "t3a.small"
   key_name                    = aws_key_pair.deploy.id
